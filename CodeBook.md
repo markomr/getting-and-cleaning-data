@@ -1,6 +1,6 @@
 # Code book
 
-## The original and reduced data
+## Overview of the original data
 
 The original data is available at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip].
 
@@ -22,6 +22,7 @@ The data file is zipped and contains the following subfolder and file structure:
 * train/y_train.txt - Activity id for every measurement row, 1 column, 7352 rows, 6 distinct values
 * train/Inertial Signals/... - Not used
 
+## Reduced data
 
 Originally the data contained 561 different measurements but we are only interested in mean and standard deviation for each measurement. The number of columns is reduced to 66 mean and standard deviation measurement columns in the same order as in original data.
 
@@ -50,6 +51,7 @@ Originally the data contained 561 different measurements but we are only interes
 * fBodyBodyAccJerkMagMean, fBodyBodyAccJerkMagStd
 * fBodyBodyGyroMagMean, fBodyBodyGyroMagStd
 * fBodyBodyGyroJerkMagMean, fBodyBodyGyroJerkMagStd
+
 
 ## Processing steps performed by run_analysis.R
 
