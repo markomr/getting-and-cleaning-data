@@ -90,6 +90,7 @@ Originally the data contained 561 different measurements but we are only interes
 ## Output file contents
 
 The data columns are the following
+
 1. The activity label "activity"
 2. The subject id "subject"
 3. The 66 average values of data columns
