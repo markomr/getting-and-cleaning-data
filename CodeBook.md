@@ -1,6 +1,25 @@
 
 
-## The original data
+## The data source
+
+; README.txt 
+: Describes the original data files in more detail.
+; features_info.txt 
+: Describes the original data measurements in more detail.
+
+; activity_labels.txt : Activity mapping from id to label, 2 columns, 6 rows
+; features.txt : List of all the 561 test group measurements that are present in the actual data files, 1 column, 561 rows
+
+; test/X_test.txt : Measurement data for "test" group, 561 columns, 2947 rows
+; test/subject_test.txt : Test subject for every measurement row, 1 column, 2947 rows, 9 distinct values
+; test/y_test.txt : Activity id for every measurement row, 1 column, 2947 rows
+; test/Inertial Signals/... : Not used
+
+; train/X_train.txt : Measurement data for "train" group, 561 columns, 7352 rows
+; train/subject_train.txt : Test subject for every measurement row,1 column, 7352 rows, 21 distinct values
+; train/y_train.txt : Activity id for every measurement row, 1 column, 7352 rows, 6 distinct values
+; train/Inertial Signals/... : Not used
+
 
 The original data contains details about the measurements.
 
