@@ -1,27 +1,27 @@
+# Code book
 
+## The original and reduced data
 
-## The data source
+The original data is available at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip].
 
-; README.txt 
-: Describes the original data files in more detail.
-; features_info.txt 
-: Describes the original data measurements in more detail.
+The data file is zipped and contains the following subfolder and file structure:
 
-; activity_labels.txt : Activity mapping from id to label, 2 columns, 6 rows
-; features.txt : List of all the 561 test group measurements that are present in the actual data files, 1 column, 561 rows
+* README.txt - Describes the original data files in more detail.
+* features_info.txt - Describes the original data measurements in more detail.
 
-; test/X_test.txt : Measurement data for "test" group, 561 columns, 2947 rows
-; test/subject_test.txt : Test subject for every measurement row, 1 column, 2947 rows, 9 distinct values
-; test/y_test.txt : Activity id for every measurement row, 1 column, 2947 rows
-; test/Inertial Signals/... : Not used
+* activity_labels.txt - Activity mapping from id to label, 2 columns, 6 rows
+* features.txt - List of all the 561 test group measurements that are present in the actual data files, 1 column, 561 rows
 
-; train/X_train.txt : Measurement data for "train" group, 561 columns, 7352 rows
-; train/subject_train.txt : Test subject for every measurement row,1 column, 7352 rows, 21 distinct values
-; train/y_train.txt : Activity id for every measurement row, 1 column, 7352 rows, 6 distinct values
-; train/Inertial Signals/... : Not used
+* test/X_test.txt - Measurement data for "test" group, 561 columns, 2947 rows
+* test/subject_test.txt - Test subject for every measurement row, 1 column, 2947 rows, 9 distinct values
+* test/y_test.txt - Activity id for every measurement row, 1 column, 2947 rows
+* test/Inertial Signals/... - Not used
 
+* train/X_train.txt - Measurement data for "train" group, 561 columns, 7352 rows
+* train/subject_train.txt - Test subject for every measurement row,1 column, 7352 rows, 21 distinct values
+* train/y_train.txt - Activity id for every measurement row, 1 column, 7352 rows, 6 distinct values
+* train/Inertial Signals/... - Not used
 
-The original data contains details about the measurements.
 
 Originally the data contained 561 different measurements but we are only interested in mean and standard deviation for each measurement. The number of columns is reduced to 66 mean and standard deviation measurement columns in the same order as in original data.
 
