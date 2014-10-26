@@ -2,9 +2,9 @@
 
 ## Course project
 
-The goal was to further process data from smartphone recorded human activity project. The original project information can be found
-[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones here] and the data can be downloaded
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip here].
+The goal was to further process data from smartphone recorded human activity project. The original project information can be found from
+[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones] and the data can be downloaded from
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip].
 
 ## What this analysis does
 
