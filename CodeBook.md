@@ -1,6 +1,8 @@
 # Code book
 
-## Overview of the original data
+## The original data
+
+The data is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. This includes both accelerometer and gyroscope readings.
 
 The original data is available at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip].
 
@@ -21,6 +23,7 @@ The data file is zipped and contains the following subfolder and file structure:
 * train/subject_train.txt - Test subject for every measurement row,1 column, 7352 rows, 21 distinct values
 * train/y_train.txt - Activity id for every measurement row, 1 column, 7352 rows, 6 distinct values
 * train/Inertial Signals/... - Not used
+
 
 ## Reduced data
 
