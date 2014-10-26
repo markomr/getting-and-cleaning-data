@@ -24,6 +24,8 @@ The data file is zipped and contains the following subfolder and file structure:
 * train/y_train.txt - Activity id for every measurement row, 1 column, 7352 rows, 6 distinct values
 * train/Inertial Signals/... - Not used
 
+In total the data contains 10299 rows of measurement data in 561 columns. In addition to the actual numeric measurement data also subject and activity data is provided in separate files.
+
 
 ## Reduced data
 
