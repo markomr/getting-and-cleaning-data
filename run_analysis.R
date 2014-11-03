@@ -10,6 +10,7 @@ features <- read.table("features.txt")[,2]
 # Select only columns that we need.
 featuresSelected <- grepl("(std|mean)\\(\\)", features)
 
+
 # Keep only column names we need for the data set.
 featureNames <- features[featuresSelected]
 
@@ -50,3 +51,5 @@ comp <- aggregate(allSet[,c(1:66)], by = list(activity = allSet$activity, subjec
 
 # Write the data composition to file.
 write.table(comp, file = "result.txt", row.name = FALSE )
+
+# end of code
