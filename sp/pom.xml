@@ -1,0 +1,105 @@
+<project>
+  <modelVersion> 4.0.0 </modelVersion>
+  <groupId> com.example </groupId>
+  <artifactId> app </artifactId>
+  <version> 1.0.0 </version>
+  <packaging> war </packaging>
+<!--
+  <modules>
+    <module> my-module </module>
+  </modules>
+-->
+
+  <properties>
+    <project.build.sourceEncoding> UTF-8 </project.build.sourceEncoding>
+    <spring.version> 3.1.4.RELEASE </spring.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId> org.springframework </groupId>
+      <artifactId> spring-core </artifactId>
+      <version> ${spring.version} </version>
+    </dependency>
+    <dependency>
+      <groupId> org.springframework </groupId>
+      <artifactId> spring-context </artifactId>
+      <version> ${spring.version} </version>
+    </dependency>
+    <dependency>
+      <groupId> org.springframework </groupId>
+      <artifactId> spring-web </artifactId>
+      <version> ${spring.version} </version>
+    </dependency>
+    <dependency>
+      <groupId> org.springframework </groupId>
+      <artifactId> spring-webmvc </artifactId>
+      <version> ${spring.version} </version>
+    </dependency>
+    <dependency>
+      <groupId> org.springframework </groupId>
+      <artifactId> spring-jdbc </artifactId>
+      <version> ${spring.version} </version>
+    </dependency>
+	<dependency>
+		<groupId> javax.servlet </groupId>
+		<artifactId> jstl </artifactId>
+		<version> 1.1.2 </version>
+	</dependency>
+	<dependency>
+		<groupId> taglibs </groupId>
+		<artifactId> standard </artifactId>
+		<version> 1.1.2 </version>
+	</dependency>
+	<dependency>
+		<groupId> javax.servlet </groupId>
+		<artifactId> servlet-api </artifactId>
+		<version> 2.5 </version>
+		<scope> provided </scope>
+    </dependency>
+ 
+ <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+<!--
+    <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+-->
+<dependency>
+	<groupId>com.fasterxml.jackson.core</groupId>
+	<artifactId>jackson-databind</artifactId>
+	<version>2.4.3</version>
+</dependency>
+  </dependencies>
+
+    <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.5.1</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+    </plugins>
+
+  </build>
+  
+</project>
